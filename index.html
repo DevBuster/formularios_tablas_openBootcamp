@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 02 - Formularios en HTML</title>
+</head>
+
+<body>
+    <form action="/">
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="DevBuster" required>
+        </div>
+
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" placeholder="18" required>
+        </div>
+
+        <div>
+            <label for="frase_favorita">Frase Favorita</label>
+            <textarea name="frase_favorita" id="frase_favorita" cols="30" rows="10" placeholder="Aquel que no domine su soledad piensa que cualquier compañía es buena" required></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
